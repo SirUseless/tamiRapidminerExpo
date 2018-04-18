@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>RapidMiner</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<style>
+			.slides section img{
+				border: none;
+				box-shadow: none;
+				background: none;
+			}
+		</style>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="#ffffff">
+					<img src="assets/UVIGO500.png" alt=""  style="border: none; box-shadow: none; width: 400px; height:300px" >
+					<br>
+					<img src="assets/logo-esei-25-4.png" alt=""  style="border: none; box-shadow: none;" >
+				</section>
+				<section>
+					<img src="assets/rapidminer.png" alt=""  style="border: none; box-shadow: none;" >
+				</section>
+				<section>
+					<h1>origen</h1>
+				</section>
+				<section>
+					<h4>Desarrollado en 2001 en la Universidad de Dortmund</h4>
+					<h4>Llamado YALE en un principio (<i> Yet Another Learning Enviroment</i>)</h4>
+				</section>
+				<section>
+					<h1>utilidad</h1>
+				</section>
+				<section>
+						<h4>Creación de Modelos de Decisión</h4>
+						<br>
+						<h4>Análisis, entrenamiento y refinado de modelos</h4>
+						<br>
+						<h4>Validación automática de modelos</h4>
+				</section>
+				<section>
+					<h4>Componentes Gráficos</h4>
+					<br>
+					<h4>Consola de Comandos</h4>
+					<br>
+					<h4>Integración por Librerías</h4>
+				</section>
+				<section>
+					<img src="assets/rm_interface.png" alt="">
+				</section>
+				<section>
+					<h1>¿Qué vamos a ver?</h1>
+				</section>
+				<section>
+					<h4>Instalación</h4>
+					<br>
+					<h4>Carga de Corpus de Datos</h4>
+					<br>
+					<h4>Mostrar Estadísticas y Gráficas</h4>
+				</section>
+				<section>
+					<h4>Creación de un Modelo de Decisión sencillo</h4>
+					<br>
+					<h4>Interpretación de los resultados del modelo</h4>
+					<br>
+					<h4>Análisis automático del rendimiento del modelo</h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
